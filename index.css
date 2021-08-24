@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+/* start */
+.firstSection{
+    background-image: url(./images/Burger-Image4.gif);
+    background-size: cover;
+    height: 57.3vw;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    
+}
+.firstSection .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw;
+}
+.firstSection .header > .logo{
+    display: flex;
+    align-self: flex-start;
+    
+}
+.firstSection .header > .logo .logoImg{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 1vw;
+}
+.firstSection .header>.logo .logoTitle{
+    font-size: 2.5vw;
+    margin: auto;
+}
+.firstSection .header .phoneAndList .logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.firstSection .header .phoneAndList .logo .logoImg{
+    width: 2vw;
+    height: 2vw;
+    color: #3d2514;
+}
+.firstSection .header .phoneAndList .menulist{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.firstSection .header .phoneAndList .phoneNumber{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+}
+.firstSection .header .phoneAndList .menulist li{
+    font-size: 1.5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-left: 4vw;
+    letter-spacing: 0.3vw;
+}
+.firstSection .header .phoneAndList .menulist li a{
+    color: #3d2514;
+}
+.firstSection .main{
+    position: relative;
+    top: 5%;
+}
+.firstSection .main .titleArticle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vw;
+}
+.firstSection .main .titleArticle .sub{
+    margin-bottom: 2vw;
+}
+.firstSection .main .titleArticle .sub span{
+    border: 0.2vw dashed #3d2514;
+    font-size: 1.7vw;
+    padding: 0.3vw 1vw;
+    margin-bottom: 1vw;
+}
+.firstSection .main .titleArticle .title1{
+    font-size: 8vw;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 0.3vw 0.3vw 0 #fee7ba;
+}
+.firstSection .main .titleArticle .title2{
+    font-size: 4vw;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 0.3vw 0.3vw 0 #fee7ba;
+}
+.firstSection .main .price{
+    background-image: url(./images/Ellipse.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 12vw;
+    height: 12vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 50vw;
+}
+.firstSection .main .price .priceText{
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    font-size: 2vw;
+}
+.firstSection .main .price .priceText .strong{
+    font-size: 4vw;
+}
+.firstSection .main .price .priceText .letter{
+    letter-spacing: 0.6vw;
+    width: 100%;
+}
+
+/* 2 */
+.secondSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+    padding: 5vw;
+    
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+.secondSection a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5%;
+}
+.secondSection a .container{
+    margin: 3vw;
+}
+.secondSection .item1{
+    grid-row: 1/3;
+    background-image: url(./images/Burger-Image2.gif);
+    background-size: cover;
+    background-position: center;
+
+}
+.secondSection .item2{
+    background-image: url(./images/Image1.gif);
+    background-size: cover;
+    background-position: center;
+    height: 15vw;
+
+}
+.secondSection .item3{
+    background-image: url(./images/Image2.gif);
+    background-size: cover;
+    background-position: center;
+    height: 15vw;
+
+}
+.secondSection a .container .sub{
+    font-size: 2vw;
+}
+.secondSection a .container .title{
+    font-size: 3vw;
+}
+/* 
+/* 3 */
+.thirdSection{
+    display: grid;
+    grid-template-columns: repeat(1fr,3);
+    grid-gap: 1vw;
+    width: 100%;
+}
+.thirdSection header{
+    grid-column: 1/4;
+    border: 1px solid black;
+}
+.thirdSection .item{
+    border: 1px solid black;
+    width: 20vw;
+
+}
+.thirdSection .item img{
+    width: 100% ;
+    height: 20vw;
+    object-fit: cover;
+    object-position: center;
+} */
