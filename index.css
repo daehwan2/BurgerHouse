@@ -77,11 +77,11 @@ a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
 }
 .firstSection .header .phoneAndList .logo .logoImg{
     width: 2vw;
     height: 2vw;
-    color: #3d2514;
 }
 .firstSection .header .phoneAndList .menulist{
     display: flex;
@@ -207,16 +207,44 @@ a{
 .thirdSection{
     display: grid;
     grid-template-columns: repeat(1fr,3);
-    grid-gap: 1vw;
+    justify-items: center;
+    grid-gap: 5vw;
     width: 100%;
+    
+    
 }
 .thirdSection header{
     grid-column: 1/4;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thirdSection header .sub{
+    background-color: #ffc045;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', cursive;
+    padding: 1vw;
+    margin-bottom: 2vw;
+}
+.thirdSection header p{
+    text-align: center;
+    width: 80vw;
+    color: #3d2514;
+    font-size: 1.2vw;
+    line-height: 2.3vw;
+    font-family: 'Montserrat', sans-serif;
+}
+.thirdSection header .title{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3.5vw;
+    color: #3d2514;
+    margin-bottom: 2vw;
 }
 .thirdSection .item{
-    border: 1px solid black;
-    width: 20vw;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .thirdSection .item img{
@@ -224,4 +252,123 @@ a{
     height: 20vw;
     object-fit: cover;
     object-position: center;
-} */
+}
+.thirdSection .item p{
+    text-align: center;
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    line-height: 2.3vw;
+    margin-top: 1vw
+}
+.thirdSection .item .title{
+    font-size: 2.5vw;
+    font-family: 'Bebas Neue', cursive;
+}
+.thirdSection .item a{
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    background: #bf2222;
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    margin-top: 1vw;
+}
+
+/* 4 */
+.fourthSection{
+    display: flex;
+    margin: 3vw;
+    box-shadow: 10px 10px 10px gray;
+    color: #3d2514;
+}
+.fourthSection .content{
+    box-shadow: -5px 0px 5px lightgray;
+    width: 50%;
+    padding: 2vw;
+}
+.fourthSection .content .sub{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vw;
+    letter-spacing: 0.3vw;
+    margin-bottom: 0.5vw;
+}
+.fourthSection .content .title{
+    font-size: 3vw;
+    font-family: 'Alfa Slab One', cursive;
+    margin-bottom: 2vw;
+}
+.fourthSection .content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    line-height: 2.3vw;
+    margin-bottom: 8vw;
+
+}
+.fourthSection .content .circles{
+    display: flex;
+}
+
+.fourthSection .content .circles li{
+    width: 1.5vw;
+    height: 1.5vw;
+    background: #dcdcdc;
+    border-radius: 50%;
+    margin-right: 1vw;
+}
+.fourthSection .content .circles li:nth-child(1){
+    background: #ffc045;
+}
+.fourthSection .burgerImg{
+    width: 50%;
+    margin: 2vw;
+}
+
+/* 5 */
+.fifthSection{
+    background-image: url(./images/Bottle.gif);
+    background-size: cover;
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#3d2514;
+}
+.fifthSection header .sub{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+
+}
+.fifthSection header .title{
+    font-size: 4vw;
+    font-family: 'Alfa Slab One', cursive;
+    margin-bottom: 4vw;
+}
+.fifthSection form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+}
+.fifthSection form input{
+    width: 25vw;
+    height: 3vw;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vw;
+}
+.fifthSection form button{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.5vw;
+    background-color: #bf2222;
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
+
+/* 6 */
+.sixthSection{
+    margin: 2vw;
+    background-image: url(./images/Layer1.gif);
+}
