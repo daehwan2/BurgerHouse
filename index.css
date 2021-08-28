@@ -368,7 +368,77 @@ a{
 }
 
 /* 6 */
-/* .sixthSection{
+.sixthSection{
     margin: 2vw;
     background-image: url(./images/Layer1.gif);
-} */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    font-family: 'Bebas Neue', cursive;
+    grid-gap: 12vw;
+}
+.sixthSection .content1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vw;
+    padding-left: 2vw;
+    width: 80%;
+    
+}
+.sixthSection .content1 .logo{
+    display: flex;
+    margin-bottom: 4vw;
+    align-items: center;
+}
+.sixthSection .content1 .logo img{
+    width: 6vw;
+    height: 6vw;
+    margin-right: 1vw;
+}
+.sixthSection .content1 .logo .title{
+    font-size: 4vw;
+}
+.sixthSection .content1 p{
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+}
+.sixthSection .content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 10vw;
+}
+.sixthSection .content2 li{
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+    font-size: 1vw;
+}
+.sixthSection .content2 li img{
+    width: 2vw;
+    height: 2.5vw;
+    margin-right: 2vw;
+}
+.sixthSection footer{
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+}
+.sixthSection footer .from{
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+}
+.sixthSection footer .messanger{
+    display: flex;
+}
+.sixthSection footer .messanger li{
+    margin-left: 1vw;
+}
+.sixthSection footer .messanger li img{
+    width: 2vw;
+    height: 2vw;
+}
